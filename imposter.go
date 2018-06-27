@@ -14,6 +14,7 @@ type ImposterBuilder struct {
 	port     int
 	name     string
 	mode     string
+        record   bool
 	stubs    []StubElement
 }
 
